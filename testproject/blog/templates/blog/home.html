@@ -5,7 +5,7 @@
     <title>Home</title>
 </head>
 <body>
-<h1>Hello world!</h1>
+
 
 {% for post in posts %}
    <div>
@@ -13,7 +13,7 @@
        <div>
            <img src="{{ post.photo.url}}" all="{{post.title}}">
            {{ post.content }}</div>
-       <p>{{ post.created_at }}</p>
+       <p>{{ post.created_at|date:"Y-m-d" }}</p>
    </div>
    <hr>
 {% endfor %}

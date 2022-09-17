@@ -4,7 +4,8 @@ from .models import Article
 
 
 def home(request):
-    posts = Article.objects.all()
+    #posts = Article.objects.all()
+    posts = Article.objects.order_by('-created_at')
     return render(request,'blog/home.html',{'posts':posts})
 
 
