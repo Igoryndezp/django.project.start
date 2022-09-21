@@ -1,5 +1,5 @@
 # django.project.start
-My first Django project.
+My first encounter with Django
 
 The project is based on video tutorials from the YouTube channel: https://www.youtube.com/playlist?list=PLD-piGJ3Dtl0v10rx98Q0kuAsBfn2MmxL
 
